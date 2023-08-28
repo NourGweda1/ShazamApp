@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C717D1132A8CDC8900D3423C /* ShazamAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C717D1122A8CDC8900D3423C /* ShazamAppApp.swift */; };
+		C717D1152A8CDC8900D3423C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C717D1142A8CDC8900D3423C /* ContentView.swift */; };
+		C717D1172A8CDC8C00D3423C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C717D1162A8CDC8C00D3423C /* Assets.xcassets */; };
+		C717D11A2A8CDC8C00D3423C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C717D1192A8CDC8C00D3423C /* Preview Assets.xcassets */; };
+		C717D1242A8CDC8D00D3423C /* ShazamAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C717D1232A8CDC8D00D3423C /* ShazamAppTests.swift */; };
+		C717D12E2A8CDC8D00D3423C /* ShazamAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C717D12D2A8CDC8D00D3423C /* ShazamAppUITests.swift */; };
+		C717D1302A8CDC8D00D3423C /* ShazamAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C717D12F2A8CDC8D00D3423C /* ShazamAppUITestsLaunchTests.swift */; };
+		C717D13F2A8CDD9000D3423C /* MainHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C717D13E2A8CDD9000D3423C /* MainHomeView.swift */; };
+		C73C45F42A9C970500B34E4C /* Binding+Unwrapped.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C45F32A9C970500B34E4C /* Binding+Unwrapped.swift */; };
+		C76AB3122A9B7CF40074E725 /* InternalColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76AB3112A9B7CF40074E725 /* InternalColors.swift */; };
+		C76AB3182A9C785F0074E725 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C76AB3172A9C785F0074E725 /* Kingfisher */; };
+		C76AB31B2A9C7A7B0074E725 /* UIImageColors in Frameworks */ = {isa = PBXBuildFile; productRef = C76AB31A2A9C7A7B0074E725 /* UIImageColors */; };
+		C7A3CC3E2A96359200FA3B19 /* HomeFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A3CC3D2A96359200FA3B19 /* HomeFooterView.swift */; };
+		C7A3CC402A963D8200FA3B19 /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A3CC3F2A963D8200FA3B19 /* TrackView.swift */; };
+		C7B830762A8E47FF00EA673A /* ShazamRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B830752A8E47FF00EA673A /* ShazamRecognizer.swift */; };
+		C7C8BD4E2A923D7D00ADA2BD /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C8BD4D2A923D7D00ADA2BD /* Track.swift */; };
+		C7C8BD522A92428F00ADA2BD /* WaveForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C8BD512A92428F00ADA2BD /* WaveForm.swift */; };
+		C7C8BD552A92474A00ADA2BD /* WaveForm+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C8BD542A92474A00ADA2BD /* WaveForm+Extension.swift */; };
+		C7C8BD632A939FA100ADA2BD /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C8BD622A939FA100ADA2BD /* CustomColor.swift */; };
+		C7C8BD652A93A01200ADA2BD /* Constants+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C8BD642A93A01200ADA2BD /* Constants+Image.swift */; };
+		C7C8BD672A93A04B00ADA2BD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C8BD662A93A04B00ADA2BD /* Constants.swift */; };
+		C7F20C9E2A9B34DD00D31FCA /* View+IsHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F20C9D2A9B34DD00D31FCA /* View+IsHidden.swift */; };
+		C7F20CA02A9B35A200D31FCA /* PlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F20C9F2A9B35A200D31FCA /* PlaceHolderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C717D1202A8CDC8D00D3423C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C717D1072A8CDC8900D3423C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C717D10E2A8CDC8900D3423C;
+			remoteInfo = ShazamApp;
+		};
+		C717D12A2A8CDC8D00D3423C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C717D1072A8CDC8900D3423C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C717D10E2A8CDC8900D3423C;
+			remoteInfo = ShazamApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C717D10F2A8CDC8900D3423C /* ShazamApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShazamApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C717D1122A8CDC8900D3423C /* ShazamAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamAppApp.swift; sourceTree = "<group>"; };
+		C717D1142A8CDC8900D3423C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C717D1162A8CDC8C00D3423C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C717D1192A8CDC8C00D3423C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C717D11F2A8CDC8D00D3423C /* ShazamAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShazamAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C717D1232A8CDC8D00D3423C /* ShazamAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamAppTests.swift; sourceTree = "<group>"; };
+		C717D1292A8CDC8D00D3423C /* ShazamAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShazamAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C717D12D2A8CDC8D00D3423C /* ShazamAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamAppUITests.swift; sourceTree = "<group>"; };
+		C717D12F2A8CDC8D00D3423C /* ShazamAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C717D13E2A8CDD9000D3423C /* MainHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHomeView.swift; sourceTree = "<group>"; };
+		C717D1402A8CDF6C00D3423C /* ShazamApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShazamApp.entitlements; sourceTree = "<group>"; };
+		C7229E7A2A8E67850000E40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C73C45F32A9C970500B34E4C /* Binding+Unwrapped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Unwrapped.swift"; sourceTree = "<group>"; };
+		C76AB3112A9B7CF40074E725 /* InternalColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalColors.swift; sourceTree = "<group>"; };
+		C7A3CC3D2A96359200FA3B19 /* HomeFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFooterView.swift; sourceTree = "<group>"; };
+		C7A3CC3F2A963D8200FA3B19 /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
+		C7B830752A8E47FF00EA673A /* ShazamRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamRecognizer.swift; sourceTree = "<group>"; };
+		C7C8BD4D2A923D7D00ADA2BD /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		C7C8BD512A92428F00ADA2BD /* WaveForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveForm.swift; sourceTree = "<group>"; };
+		C7C8BD542A92474A00ADA2BD /* WaveForm+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaveForm+Extension.swift"; sourceTree = "<group>"; };
+		C7C8BD622A939FA100ADA2BD /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		C7C8BD642A93A01200ADA2BD /* Constants+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants+Image.swift"; sourceTree = "<group>"; };
+		C7C8BD662A93A04B00ADA2BD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C7F20C9D2A9B34DD00D31FCA /* View+IsHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+IsHidden.swift"; sourceTree = "<group>"; };
+		C7F20C9F2A9B35A200D31FCA /* PlaceHolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C717D10C2A8CDC8900D3423C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76AB31B2A9C7A7B0074E725 /* UIImageColors in Frameworks */,
+				C76AB3182A9C785F0074E725 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C717D11C2A8CDC8D00D3423C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C717D1262A8CDC8D00D3423C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		544D7B88B0D927B9BEDDDBCE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C717D1062A8CDC8900D3423C = {
+			isa = PBXGroup;
+			children = (
+				C717D1112A8CDC8900D3423C /* ShazamApp */,
+				C717D1222A8CDC8D00D3423C /* ShazamAppTests */,
+				C717D12C2A8CDC8D00D3423C /* ShazamAppUITests */,
+				C717D1102A8CDC8900D3423C /* Products */,
+				544D7B88B0D927B9BEDDDBCE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C717D1102A8CDC8900D3423C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C717D10F2A8CDC8900D3423C /* ShazamApp.app */,
+				C717D11F2A8CDC8D00D3423C /* ShazamAppTests.xctest */,
+				C717D1292A8CDC8D00D3423C /* ShazamAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C717D1112A8CDC8900D3423C /* ShazamApp */ = {
+			isa = PBXGroup;
+			children = (
+				C7229E7A2A8E67850000E40F /* Info.plist */,
+				C7B830742A8E47D800EA673A /* Helpers */,
+				C717D1402A8CDF6C00D3423C /* ShazamApp.entitlements */,
+				C7B830732A8E445000EA673A /* Model */,
+				C717D13D2A8CDD5E00D3423C /* Views */,
+				C717D1122A8CDC8900D3423C /* ShazamAppApp.swift */,
+				C717D1142A8CDC8900D3423C /* ContentView.swift */,
+				C717D1162A8CDC8C00D3423C /* Assets.xcassets */,
+				C717D1182A8CDC8C00D3423C /* Preview Content */,
+			);
+			path = ShazamApp;
+			sourceTree = "<group>";
+		};
+		C717D1182A8CDC8C00D3423C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C717D1192A8CDC8C00D3423C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C717D1222A8CDC8D00D3423C /* ShazamAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C717D1232A8CDC8D00D3423C /* ShazamAppTests.swift */,
+			);
+			path = ShazamAppTests;
+			sourceTree = "<group>";
+		};
+		C717D12C2A8CDC8D00D3423C /* ShazamAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C717D12D2A8CDC8D00D3423C /* ShazamAppUITests.swift */,
+				C717D12F2A8CDC8D00D3423C /* ShazamAppUITestsLaunchTests.swift */,
+			);
+			path = ShazamAppUITests;
+			sourceTree = "<group>";
+		};
+		C717D13C2A8CDD5600D3423C /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				C717D13E2A8CDD9000D3423C /* MainHomeView.swift */,
+				C7A3CC3D2A96359200FA3B19 /* HomeFooterView.swift */,
+				C7A3CC3F2A963D8200FA3B19 /* TrackView.swift */,
+				C7F20C9F2A9B35A200D31FCA /* PlaceHolderView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		C717D13D2A8CDD5E00D3423C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C717D13C2A8CDD5600D3423C /* HomeView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C7B830732A8E445000EA673A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7C8BD4D2A923D7D00ADA2BD /* Track.swift */,
+				C76AB3112A9B7CF40074E725 /* InternalColors.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7B830742A8E47D800EA673A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C7F20C9C2A9B34C700D31FCA /* Extensions */,
+				C7C8BD612A939F6700ADA2BD /* Constants */,
+				C7C8BD502A92427F00ADA2BD /* Animation */,
+				C7C8BD4F2A92427100ADA2BD /* ShazamManager */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C7C8BD4F2A92427100ADA2BD /* ShazamManager */ = {
+			isa = PBXGroup;
+			children = (
+				C7B830752A8E47FF00EA673A /* ShazamRecognizer.swift */,
+			);
+			path = ShazamManager;
+			sourceTree = "<group>";
+		};
+		C7C8BD502A92427F00ADA2BD /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				C7C8BD532A92473000ADA2BD /* WaveForm */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		C7C8BD532A92473000ADA2BD /* WaveForm */ = {
+			isa = PBXGroup;
+			children = (
+				C7C8BD512A92428F00ADA2BD /* WaveForm.swift */,
+				C7C8BD542A92474A00ADA2BD /* WaveForm+Extension.swift */,
+			);
+			path = WaveForm;
+			sourceTree = "<group>";
+		};
+		C7C8BD612A939F6700ADA2BD /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C7C8BD622A939FA100ADA2BD /* CustomColor.swift */,
+				C7C8BD642A93A01200ADA2BD /* Constants+Image.swift */,
+				C7C8BD662A93A04B00ADA2BD /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C7F20C9C2A9B34C700D31FCA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C7F20C9D2A9B34DD00D31FCA /* View+IsHidden.swift */,
+				C73C45F32A9C970500B34E4C /* Binding+Unwrapped.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C717D10E2A8CDC8900D3423C /* ShazamApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C717D1332A8CDC8D00D3423C /* Build configuration list for PBXNativeTarget "ShazamApp" */;
+			buildPhases = (
+				C717D10B2A8CDC8900D3423C /* Sources */,
+				C717D10C2A8CDC8900D3423C /* Frameworks */,
+				C717D10D2A8CDC8900D3423C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShazamApp;
+			packageProductDependencies = (
+				C76AB3172A9C785F0074E725 /* Kingfisher */,
+				C76AB31A2A9C7A7B0074E725 /* UIImageColors */,
+			);
+			productName = ShazamApp;
+			productReference = C717D10F2A8CDC8900D3423C /* ShazamApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C717D11E2A8CDC8D00D3423C /* ShazamAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C717D1362A8CDC8D00D3423C /* Build configuration list for PBXNativeTarget "ShazamAppTests" */;
+			buildPhases = (
+				C717D11B2A8CDC8D00D3423C /* Sources */,
+				C717D11C2A8CDC8D00D3423C /* Frameworks */,
+				C717D11D2A8CDC8D00D3423C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C717D1212A8CDC8D00D3423C /* PBXTargetDependency */,
+			);
+			name = ShazamAppTests;
+			productName = ShazamAppTests;
+			productReference = C717D11F2A8CDC8D00D3423C /* ShazamAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C717D1282A8CDC8D00D3423C /* ShazamAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C717D1392A8CDC8D00D3423C /* Build configuration list for PBXNativeTarget "ShazamAppUITests" */;
+			buildPhases = (
+				C717D1252A8CDC8D00D3423C /* Sources */,
+				C717D1262A8CDC8D00D3423C /* Frameworks */,
+				C717D1272A8CDC8D00D3423C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C717D12B2A8CDC8D00D3423C /* PBXTargetDependency */,
+			);
+			name = ShazamAppUITests;
+			productName = ShazamAppUITests;
+			productReference = C717D1292A8CDC8D00D3423C /* ShazamAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C717D1072A8CDC8900D3423C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C717D10E2A8CDC8900D3423C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C717D11E2A8CDC8D00D3423C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C717D10E2A8CDC8900D3423C;
+					};
+					C717D1282A8CDC8D00D3423C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C717D10E2A8CDC8900D3423C;
+					};
+				};
+			};
+			buildConfigurationList = C717D10A2A8CDC8900D3423C /* Build configuration list for PBXProject "ShazamApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C717D1062A8CDC8900D3423C;
+			packageReferences = (
+				C76AB3162A9C785F0074E725 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				C76AB3192A9C7A7B0074E725 /* XCRemoteSwiftPackageReference "UIImageColors" */,
+			);
+			productRefGroup = C717D1102A8CDC8900D3423C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C717D10E2A8CDC8900D3423C /* ShazamApp */,
+				C717D11E2A8CDC8D00D3423C /* ShazamAppTests */,
+				C717D1282A8CDC8D00D3423C /* ShazamAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C717D10D2A8CDC8900D3423C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C717D11A2A8CDC8C00D3423C /* Preview Assets.xcassets in Resources */,
+				C717D1172A8CDC8C00D3423C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C717D11D2A8CDC8D00D3423C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C717D1272A8CDC8D00D3423C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C717D10B2A8CDC8900D3423C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A3CC402A963D8200FA3B19 /* TrackView.swift in Sources */,
+				C717D1152A8CDC8900D3423C /* ContentView.swift in Sources */,
+				C7C8BD672A93A04B00ADA2BD /* Constants.swift in Sources */,
+				C7C8BD522A92428F00ADA2BD /* WaveForm.swift in Sources */,
+				C7C8BD632A939FA100ADA2BD /* CustomColor.swift in Sources */,
+				C7C8BD552A92474A00ADA2BD /* WaveForm+Extension.swift in Sources */,
+				C7F20C9E2A9B34DD00D31FCA /* View+IsHidden.swift in Sources */,
+				C7B830762A8E47FF00EA673A /* ShazamRecognizer.swift in Sources */,
+				C7A3CC3E2A96359200FA3B19 /* HomeFooterView.swift in Sources */,
+				C717D13F2A8CDD9000D3423C /* MainHomeView.swift in Sources */,
+				C76AB3122A9B7CF40074E725 /* InternalColors.swift in Sources */,
+				C7F20CA02A9B35A200D31FCA /* PlaceHolderView.swift in Sources */,
+				C717D1132A8CDC8900D3423C /* ShazamAppApp.swift in Sources */,
+				C7C8BD4E2A923D7D00ADA2BD /* Track.swift in Sources */,
+				C73C45F42A9C970500B34E4C /* Binding+Unwrapped.swift in Sources */,
+				C7C8BD652A93A01200ADA2BD /* Constants+Image.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C717D11B2A8CDC8D00D3423C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C717D1242A8CDC8D00D3423C /* ShazamAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C717D1252A8CDC8D00D3423C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C717D1302A8CDC8D00D3423C /* ShazamAppUITestsLaunchTests.swift in Sources */,
+				C717D12E2A8CDC8D00D3423C /* ShazamAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C717D1212A8CDC8D00D3423C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C717D10E2A8CDC8900D3423C /* ShazamApp */;
+			targetProxy = C717D1202A8CDC8D00D3423C /* PBXContainerItemProxy */;
+		};
+		C717D12B2A8CDC8D00D3423C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C717D10E2A8CDC8900D3423C /* ShazamApp */;
+			targetProxy = C717D12A2A8CDC8D00D3423C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C717D1312A8CDC8D00D3423C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C717D1322A8CDC8D00D3423C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C717D1342A8CDC8D00D3423C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShazamApp/ShazamApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShazamApp/Preview Content\"";
+				DEVELOPMENT_TEAM = U98MB87JNM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShazamApp/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please Allow Access";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Trianglz.ShazamAppTrial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C717D1352A8CDC8D00D3423C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShazamApp/ShazamApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShazamApp/Preview Content\"";
+				DEVELOPMENT_TEAM = U98MB87JNM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShazamApp/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please Allow Access";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Trianglz.ShazamAppTrial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C717D1372A8CDC8D00D3423C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U98MB87JNM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = splashProject.ShazamAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShazamApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShazamApp";
+			};
+			name = Debug;
+		};
+		C717D1382A8CDC8D00D3423C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U98MB87JNM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = splashProject.ShazamAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShazamApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShazamApp";
+			};
+			name = Release;
+		};
+		C717D13A2A8CDC8D00D3423C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U98MB87JNM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = splashProject.ShazamAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShazamApp;
+			};
+			name = Debug;
+		};
+		C717D13B2A8CDC8D00D3423C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U98MB87JNM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = splashProject.ShazamAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShazamApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C717D10A2A8CDC8900D3423C /* Build configuration list for PBXProject "ShazamApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C717D1312A8CDC8D00D3423C /* Debug */,
+				C717D1322A8CDC8D00D3423C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C717D1332A8CDC8D00D3423C /* Build configuration list for PBXNativeTarget "ShazamApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C717D1342A8CDC8D00D3423C /* Debug */,
+				C717D1352A8CDC8D00D3423C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C717D1362A8CDC8D00D3423C /* Build configuration list for PBXNativeTarget "ShazamAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C717D1372A8CDC8D00D3423C /* Debug */,
+				C717D1382A8CDC8D00D3423C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C717D1392A8CDC8D00D3423C /* Build configuration list for PBXNativeTarget "ShazamAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C717D13A2A8CDC8D00D3423C /* Debug */,
+				C717D13B2A8CDC8D00D3423C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C76AB3162A9C785F0074E725 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		C76AB3192A9C7A7B0074E725 /* XCRemoteSwiftPackageReference "UIImageColors" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jathu/UIImageColors";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C76AB3172A9C785F0074E725 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C76AB3162A9C785F0074E725 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		C76AB31A2A9C7A7B0074E725 /* UIImageColors */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C76AB3192A9C7A7B0074E725 /* XCRemoteSwiftPackageReference "UIImageColors" */;
+			productName = UIImageColors;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C717D1072A8CDC8900D3423C /* Project object */;
+}
